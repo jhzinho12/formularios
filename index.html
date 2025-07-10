@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+    <form >
+        <h1>formulario</h1>
+
+        <div class="nome-container">
+
+        
+            <div>
+                <label for="fnome">Nome <span>*</span></label>
+                <input type="text" nome="fnome" id="fnome" required="true">
+            </div>
+
+            <div>
+                <label for="fsobrenome">sobrenome</label>
+                <input type="text" nome="fsobrenome" id="fsobrenome"></div>
+        </div>
+
+        <div  class="Email-container">
+            <label for="femail">Email</label>
+            <input type="email" nome="email" id="femail">
+        </div>
+
+<div class="telefone-container">
+    <label for="fwhatasapp">whatsapp</label>
+            <input type="tel" nome="whatsapp" id="fwhatasapp">
+</div>
+
+<div class="serviço-container">
+<legend>tipo de serviço</legend>
+          <fieldset>
+            <div>
+                <input type="checkbox" nome="serviço" id="fsite" value="site">
+                <label for="fsite">Site</label>
+            </div>
+            <div>
+            <input type="checkbox" nome="servico" id="fsistema"value="Sitemas">
+                <label for="fsistemas">Sitemas</label>
+        </div>
+</fieldset>
+</div>
+        <div></div>
+<button type="sudmit">enviar</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
